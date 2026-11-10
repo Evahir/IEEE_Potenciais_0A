@@ -60,7 +60,7 @@ Lr = 3.0;                   % Comprimento de cada haste, m
 LR = nR*Lr;                 % Comprimento total das hastes, m
 
 H = 0.6;                    % Profundidade da malha, m
-Secao_utilizada_mm2 = 35;   % Secao nominal escolhida na 1a etapa, mm2
+Secao_utilizada_mm2 = 50;   % Secao nominal escolhida, mm2
 d = sqrt(4*(Secao_utilizada_mm2*1e-6)/pi);  % Diametro do condutor, m
 fprintf('Diametro do condutor (secao %d mm2) = %.4f mm\n', Secao_utilizada_mm2, d*1000);
 
